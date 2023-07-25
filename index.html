@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wanaku</title>
+    <style>
+        body {
+            overflow: visible;
+            overflow: transparent;
+        }
+    </style>
     <link href="dist/output.css" rel="stylesheet">
 </head>
 <body>
@@ -12,37 +18,38 @@
     <div class="container">
         <div class="flex items-center justify-between relative">
             <div class="px-4">
-                <a href="#home" class="font-bold text-lg text-rose-400 block py-6">wawanakurniawan</a>
+                <a href="#home" class="font-bold text-lg text-rose-400 block py-4">wawanakurniawan</a>
             </div>
-        <div class="flex items-center px-4">
-            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-                <span class="w-[29px] h-[2px] my-2 block bg-black duration-300 ease-in-out origin-top-left"></span>
-                <span class="w-[29px] h-[2px] my-2 block bg-black duration-300 ease-in-out"></span>
-                <span class="w-[29px] h-[2px] my-2 block bg-black duration-300 ease-in-out origin-bottom-left"></span>
-            </button>
+            <div class="flex items-center px-4">
+                <button id="strip" name="strip" type="button" class="block absolute right-4 lg:hidden">
+                    <span class="w-[29px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="w-[29px] h-[2px] my-2 block bg-black transition ease-in-out"></span>
+                    <span class="w-[29px] h-[2px] my-2 block bg-black transition ease-in-out origin-bottom-left"></span>
+                </button>
 
-            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:max-w-full lg:shadow-none lg:rounded-none lg:bg-transparent">
-                <ul class="block lg:flex">
-                    <li class="group">
-                        <a href="#home" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">Home</a>
-                    </li>
-                    <li class="group">
-                        <a href="#about" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">About Me</a>
-                    </li>
-                    <li class="group">
-                        <a href="#portfolio" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">Portfolio</a>
-                    </li>
-                    <li class="group">
-                        <a href="#tools" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">Tools</a>
-                   </li>
-                   <li class="group">
-                        <a href="#blog" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">Blog</a>
-                   </li>
-                   <li class="group">
-                        <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=wawanakurniawan69@gmail.com" target="_blank" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">Contact Me</a>
-                   </li>
-                </ul>
-        </div>
+                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:max-w-full lg:shadow-none lg:rounded-none lg:bg-transparent">
+                    <ul class="block lg:flex">
+                        <li class="group">
+                            <a href="#home" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">Home</a>
+                        </li>
+                        <li class="group">
+                            <a href="#about" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">About Me</a>
+                        </li>
+                        <li class="group">
+                            <a href="#portfolio" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">Portfolio</a>
+                        </li>
+                        <li class="group">
+                            <a href="#tools" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">Tools</a>
+                        </li>
+                        <li class="group">
+                            <a href="#blog" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">Blog</a>
+                        </li>
+                        <li class="group">
+                            <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=wawanakurniawan69@gmail.com" target="_blank" class="text-base text-black py-2 mx-8 flex group-hover:text-rose-400">Contact Me</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </header>
@@ -53,7 +60,7 @@
     <div class="container">
         <div class="flex flex-wrap">
             <div class="w-full self-center px-4  lg:w-1/2">
-                    <h1 class="text-base font-semibold text-rose-400 md:text-xl">Hi Guys👋, I'm<span class="block font-bold text-black text-4xl mt-1 lg:text-5xl">Wawan A Kurniawan</span></h1>
+                    <h1 class="text-base font-semibold text-rose-400 md:text-xl">Hi Guys👋, I'm<span class="block font-bold text-black text-3xl mt-1 lg:text-4xl">Wawan A Kurniawan</span></h1>
                     <h2 class="font-medium text-slate-500 tegitxt-lg mb-5 lg:text-2xl">Students | Gamers</h2>
                     <p class="font-medium text-slate-400 mb-10 leading-relaxed">I am learning coding to become a Hacker in the future.<span class="block">In addition, I want to become an engineer!</span></p>
                     <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=wawanakurniawan69@gmail.com" target="_blank" class="text-base font-semibold text-white bg-rose-400 py-3 px-8 rounded-full hover:shadow-lg hover:bg-rose-300 transition duration-300 ease-in-out">Contact Me</a>
@@ -63,7 +70,7 @@
                     <img src="dist/image0__4_-removebg-preview.png" alt="Wanaku" class="max-w-full mx-auto" />
                     <span class="absolute -bottom-7 -z-10 left-1/2 -translate-x-1/2 md:scale-100 lg:scale-100">
                         <svg  width="400" heigth="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                            <path fill="#F08080" d="M34.4,-56.3C46.9,-45.4,61.2,-39.9,68,-29.7C74.7,-19.5,74,-4.5,71.6,10.1C69.3,24.7,65.3,39,57.7,52.8C50.1,66.7,38.8,80.2,26.2,79.5C13.5,78.9,-0.5,64.1,-13.9,56.1C-27.3,48.2,-40.2,47.1,-51.4,40.8C-62.5,34.6,-71.9,23.1,-77.1,9C-82.3,-5.1,-83.5,-21.9,-77,-34.8C-70.5,-47.8,-56.5,-56.9,-42.4,-67.1C-28.3,-77.3,-14.1,-88.5,-1.6,-86C10.9,-83.4,21.8,-67.1,34.4,-56.3Z" transform="translate(100 100) scale(1.025)" />
+                            <path fill="#F08080" d="M34.4,-56.3C46.9,-45.4,61.2,-39.9,68,-29.7C74.7,-19.5,74,-4.5,71.6,10.1C69.3,24.7,65.3,39,57.7,52.8C50.1,66.7,38.8,80.2,26.2,79.5C13.5,78.9,-0.5,64.1,-13.9,56.1C-27.3,48.2,-40.2,47.1,-51.4,40.8C-62.5,34.6,-71.9,23.1,-77.1,9C-82.3,-5.1,-83.5,-21.9,-77,-34.8C-70.5,-47.8,-56.5,-56.9,-42.4,-67.1C-28.3,-77.3,-14.1,-88.5,-1.6,-86C10.9,-83.4,21.8,-67.1,34.4,-56.3Z" transform="translate(100 100)scale(0.9)" />
                           </svg>
                     </span>
                 </div>
@@ -203,9 +210,6 @@
                 <a href="https://www.python.org/" target="_blank" class="max-w-[25px] mx-4 py-4 grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 lg:max-w-[60px]">
                     <img src="dist/tools/Python-logo-notext.svg.png" alt="python">
                 </a>
-                <a href="https://github.com/trekhleb/javascript-algorithms" target="_blank" class="max-w-[25px] mx-4 py-4 grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 lg:max-w-[60px]">
-                    <img src="dist/tools/Unofficial_JavaScript_logo_2.svg.png" alt="javascript">
-                </a>
                 <a href="https://tailwindcss.com/docs/installation" target="_blank" class="max-w-[25px] mx-4 py-4 grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 lg:max-w-[60px]">
                     <img src="dist/tools/tailwind-css-icon-512x307-1v56l8ed.png" alt="tailwind">
                 </a>
@@ -244,6 +248,6 @@
 </section>
  <!-- Blog End -->
 
- <script src="dist/js/script.js"></script>
+<script src="dist/js/script.js"></script>
 </body>
 </html>
